@@ -97,7 +97,7 @@ class PushoverNotifications(NotifyPlugin):
             'title': title,
             'url': link,
             'url_title': 'Details',
-            'priority': self.get_option('priority', project),
+            'priority': 1 if self.get_option('priority', project) else 0,
         }
 
         rv = safe_urlopen('https://api.pushover.net/1/messages.json',
