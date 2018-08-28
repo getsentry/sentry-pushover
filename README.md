@@ -1,7 +1,7 @@
 Sentry-Pushover
 =============
 
-**DEPRECATED:** This project now lives in [sentry-plugins](https://github.com/getsentry/sentry-plugins>)
+**DEPRECATED:** This project now lives in [sentry-plugins](https://github.com/getsentry/sentry-plugins)
 
 A [Sentry](https://www.getsentry.com/) plugin that sends notifications to a [Pushover](https://pushover.net).
 
